@@ -4,19 +4,24 @@ Rails.application.configure do
   # config.action_mailer.delivery_method = :letter_opener
   # config.action_mailer.perform_deliveries = true
 
+
+
   # devise : 이메일 인증 설정
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.perform_deliveries = true
-  config.action_mailer.default_url_options = { host: 'http://www.1i05.me' }
-  ActionMailer::Base.smtp_settings = {
-    :address              => 'smtp.gmail.com',
-    :domain               => 'mail.google.com',
-    :port                 => "587",
-    :user_name            => "hansioboon@gmail.com",
-    :password             => "tkfkdgodmstlrzns",
-    :authentication       => 'login',
-    :enable_starttls_auto => true
-  }
+  
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.perform_deliveries = true
+  # config.action_mailer.default_url_options = { host: 'http://www.1i05.me' }
+  # ActionMailer::Base.smtp_settings = {
+  #   :address              => 'smtp.gmail.com',
+  #   :domain               => 'mail.google.com',
+  #   :port                 => "587",
+  #   :user_name            => "hansioboon@gmail.com",
+  #   :password             => "tkfkdgodmstlrzns",
+  #   :authentication       => 'login',
+  #   :enable_starttls_auto => true
+  # }
+
+
 
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
