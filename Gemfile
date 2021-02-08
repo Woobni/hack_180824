@@ -6,7 +6,7 @@ gem 'rails_db'
 gem 'activeadmin'
 gem "active_material", github: "vigetlabs/active_material"
 gem 'devise'
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 gem "mini_magick"
 gem 'rails-assets-jcrop', source: 'https://rails-assets.org'
 gem 'will_paginate', '~> 3.1.0'
